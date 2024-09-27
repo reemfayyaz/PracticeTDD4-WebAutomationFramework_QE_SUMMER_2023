@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Target Regression Test Suite">
+    <parameter name="useCloudEnv" value="true"/>
+<parameter name="envName" value="browserStack"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="120"/>
+
+
+    <test name="Target Test Automation">
+
+        <classes>
+                      <class name="com.nysoftusa.testpages.SheinHomePageWebTest"/>
+
+
+
+        </classes>
+
+
+
+
+    </test>
+
+
+
+
+
+
+</suite>
